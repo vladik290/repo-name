@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'NEXT ART';
+    src: url('NEXTART-Bold.eot');
+    src: url('NEXTART-Bold.eot?#iefix') format('embedded-opentype'),
+        url('NEXTART-Bold.woff2') format('woff2'),
+        url('NEXTART-Bold.woff') format('woff'),
+        url('NEXTART-Bold.ttf') format('truetype'),
+        url('NEXTART-Bold.svg#NEXTART-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NEXT ART';
+    src: url('NEXTART-Heavy.eot');
+    src: url('NEXTART-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('NEXTART-Heavy.woff2') format('woff2'),
+        url('NEXTART-Heavy.woff') format('woff'),
+        url('NEXTART-Heavy.ttf') format('truetype'),
+        url('NEXTART-Heavy.svg#NEXTART-Heavy') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NEXT ART';
+    src: url('NEXTART-Light.eot');
+    src: url('NEXTART-Light.eot?#iefix') format('embedded-opentype'),
+        url('NEXTART-Light.woff2') format('woff2'),
+        url('NEXTART-Light.woff') format('woff'),
+        url('NEXTART-Light.ttf') format('truetype'),
+        url('NEXTART-Light.svg#NEXTART-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NEXT ART';
+    src: url('NEXTART.eot');
+    src: url('NEXTART.eot?#iefix') format('embedded-opentype'),
+        url('NEXTART.woff2') format('woff2'),
+        url('NEXTART.woff') format('woff'),
+        url('NEXTART.ttf') format('truetype'),
+        url('NEXTART.svg#NEXTART') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NEXT ART';
+    src: url('NEXTART-SemiBold.eot');
+    src: url('NEXTART-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('NEXTART-SemiBold.woff2') format('woff2'),
+        url('NEXTART-SemiBold.woff') format('woff'),
+        url('NEXTART-SemiBold.ttf') format('truetype'),
+        url('NEXTART-SemiBold.svg#NEXTART-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,0 +1,818 @@
+@font-face {
+  font-family: 'NEXTART-bold';
+  src: url('../fonts/NEXTART-Bold.eot');
+  src: url('../fonts/NEXTART-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/NEXTART-Bold.woff2') format('woff2'), url('../fonts/NEXTART-Bold.woff') format('woff'), url('../fonts/NEXTART-Bold.ttf') format('truetype'), url('../fonts/NEXTART-Bold.svg#NEXTART-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'NEXTART-heavy';
+  src: url('../fonts/NEXTART-Heavy.eot');
+  src: url('../fonts/NEXTART-Heavy.eot?#iefix') format('embedded-opentype'), url('../fonts/NEXTART-Heavy.woff2') format('woff2'), url('../fonts/NEXTART-Heavy.woff') format('woff'), url('../fonts/NEXTART-Heavy.ttf') format('truetype'), url('../fonts/NEXTART-Heavy.svg#NEXTART-Heavy') format('svg');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'NEXTART-light';
+  src: url('../fonts/NEXTART-Light.eot');
+  src: url('../fonts/NEXTART-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/NEXTART-Light.woff2') format('woff2'), url('../fonts/NEXTART-Light.woff') format('woff'), url('../fonts/NEXTART-Light.ttf') format('truetype'), url('../fonts/NEXTART-Light.svg#NEXTART-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'NEXTART-reg';
+  src: url('../fonts/NEXTART.eot');
+  src: url('../fonts/NEXTART.eot?#iefix') format('embedded-opentype'), url('../fonts/NEXTART.woff2') format('woff2'), url('../fonts/NEXTART.woff') format('woff'), url('../fonts/NEXTART.ttf') format('truetype'), url('../fonts/NEXTART.svg#NEXTART') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'NEXTART-semi';
+  src: url('../fonts/NEXTART-SemiBold.eot');
+  src: url('../fonts/NEXTART-SemiBold.eot?#iefix') format('embedded-opentype'), url('../fonts/NEXTART-SemiBold.woff2') format('woff2'), url('../fonts/NEXTART-SemiBold.woff') format('woff'), url('../fonts/NEXTART-SemiBold.ttf') format('truetype'), url('../fonts/NEXTART-SemiBold.svg#NEXTART-SemiBold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+.main-background {
+  font-family: NEXTART-reg, serif;
+  background: url(../img/bg.png) center no-repeat;
+  height: auto;
+  width: 100%;
+}
+.header-logo {
+  margin-top: 2rem;
+}
+.header-logo img {
+  width: 137px;
+  height: 72px;
+}
+.header-main {
+  margin-top: 4rem;
+}
+.header-main ul {
+  display: inline;
+}
+.header-main ul li {
+  display: inline;
+  margin-right: 3rem ;
+}
+.header-main ul a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  transition: 0.4s;
+}
+.header-main ul a:hover {
+  color: #1a3e3e;
+  font-size: 18px;
+}
+.header-main button {
+  background-color: #1a3e3e;
+  color: white;
+  width: 150px;
+  height: 40px;
+  border-radius: 4px;
+  font-size: 12px;
+  padding: 12px, 24px, 12px, 24px;
+  transition: 0.5s;
+}
+.header-main button:hover {
+  background-color: white;
+  color: #1a3e3e;
+  width: 160px;
+  height: 45px;
+}
+.mountains-header {
+  margin-top: 30rem;
+  font-family: NEXTART-bold, serif;
+  color: white;
+  font-size: 50px;
+  letter-spacing: 5px;
+  margin-bottom: 5rem;
+}
+.tour-form {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 2rem;
+  margin-bottom: 3rem;
+  border-radius: 10px;
+  height: 141px;
+  width: 100%;
+}
+.tour-form form {
+  margin-top: 1.2rem;
+}
+.tour-form form select {
+  width: 270px;
+  border: 1.5px solid white;
+  background: transparent;
+  color: white;
+  padding: 13px;
+  border-radius: 10px;
+  margin-right: 3rem  ;
+}
+.tour-form form select option {
+  color: black;
+}
+.tour-form form input {
+  width: 270px;
+  border: 1.5px solid white;
+  background: transparent;
+  color: white;
+  padding: 13px;
+  border-radius: 10px;
+  margin-right: 3rem  ;
+}
+.tour-form form small {
+  color: white;
+  font-size: 10px;
+}
+.tour-form-btn button {
+  width: 213px;
+  height: 52px;
+  transform: translate(1000px, -55px);
+  border-radius: 4px;
+  background-color: #FDFDFD;
+  padding: 16px, 36px;
+  color: black;
+  font-family: NEXTART-bold, serif;
+  transition: 0.4s;
+}
+.tour-form-btn button:hover {
+  color: #1a3e3e;
+  font-size: 17px;
+}
+.hike-img-1 {
+  transform: translateY(5rem);
+}
+.hike-img-2 {
+  position: relative;
+  transform: translate(10rem, -10rem);
+}
+.hike-header {
+  float: right;
+  margin-top: 10rem;
+  width: 580px;
+  min-height: 380px;
+}
+.hike-header h4 {
+  font-family: NEXTART-light, serif;
+  font-size: 16px;
+  color: #F2BE22;
+}
+.hike-header h2 {
+  font-family: NEXTART-bold, serif;
+  font-size: 24px;
+  margin-bottom: 2rem;
+}
+.hike-header p {
+  font-family: NEXTART-light, serif;
+  font-size: 16px;
+  margin-bottom: 2rem;
+  text-align-last: left;
+  width: 580px;
+  height: 162px;
+}
+.hike-header button {
+  background-color: #1a3e3e;
+  color: white;
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  font-size: 12px;
+  padding: 12px, 24px, 12px, 24px;
+  transition: 0.5s;
+}
+.hike-header button:hover {
+  background-color: white;
+  color: #1a3e3e;
+}
+.best {
+  background-color: #F3F5F4;
+}
+.best-header {
+  margin-top: 2rem;
+}
+.best-header h4 {
+  font-family: NEXTART-light, serif;
+  font-size: 16px;
+  color: #F2BE22;
+}
+.best-header h2 {
+  font-family: NEXTART-bold, serif;
+  font-size: 24px;
+  margin-bottom: 2rem;
+}
+.best-header p {
+  font-family: NEXTART-reg, serif;
+  font-size: 16px;
+  margin-bottom: 2rem;
+  text-align-last: left;
+}
+.best-header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.best-header li {
+  background: url('../img/best/1.png') no-repeat 3px 9px;
+  padding: 5px;
+  font-size: 16px;
+  padding-left: 1.5em;
+}
+.best-header li p {
+  margin-left: 3rem;
+}
+.best-header .li2 {
+  background: url('../img/best/2.png') no-repeat 3px 9px;
+  padding: 5px;
+  font-size: 16px;
+  padding-left: 1.5em;
+}
+.best-header .li3 {
+  background: url('../img/best/3.png') no-repeat 3px 9px;
+  padding: 5px;
+  font-size: 16px;
+  padding-left: 1.5em;
+}
+.best-header button {
+  background-color: #1a3e3e;
+  color: white;
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  font-size: 12px;
+  padding: 12px, 24px, 12px, 24px;
+  transition: 0.5s;
+  margin-bottom: 2rem;
+  font-size: 16px ;
+}
+.best-header button:hover {
+  background-color: white;
+  color: #1a3e3e;
+}
+.best-img {
+  margin-top: 6rem;
+}
+.directions-form {
+  background: url(../img/directions/1.png) center no-repeat;
+  width: 380px;
+  height: 500px;
+}
+.directions-form .star {
+  padding: 2rem;
+}
+.directions-form .star li {
+  list-style-image: url(../img/podval/6.png);
+  float: left;
+  margin-top: 6px ;
+}
+.directions-form .star li p {
+  float: right;
+  margin: 0;
+  font-family: NEXTART-bold, serif;
+}
+.directions-form .star button {
+  margin-right: -2rem;
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  border: none;
+}
+.directions-form-text {
+  background-color: rgba(255, 255, 255, 0.2);
+  display: inline-block;
+  margin-top: 21.7rem;
+  width: 390px;
+  height: 85px;
+  color: white;
+  font-family: NEXTART-bold, serif;
+  font-size: 18px ;
+}
+.directions-form-text p {
+  width: 400px;
+  float: left;
+  margin: 0;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  width: 200px;
+}
+.directions-form-text p .small {
+  font-size: 10px;
+  font-family: NEXTART-light, serif;
+}
+.directions-form-btn {
+  text-align: right;
+  padding: 1.5rem;
+}
+.directions-form-btn button {
+  width: 86px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 2px;
+  border: none ;
+}
+.directions-form-2 {
+  background: url(../img/directions/2.png) center no-repeat;
+  width: 380px;
+  height: 500px;
+}
+.directions-form-3 {
+  background: url(../img/directions/3.png) center no-repeat;
+  width: 380px;
+  height: 500px;
+}
+.directions-header {
+  text-align: center;
+  margin-top: 2rem;
+}
+.directions-header h4 {
+  font-family: NEXTART-light, serif;
+  font-size: 16px;
+  color: #F2BE22;
+}
+.directions-header h2 {
+  font-family: NEXTART-bold, serif;
+  font-size: 22px;
+  margin-bottom: 2rem;
+}
+.directions-picture {
+  text-align: center;
+}
+.directions-button {
+  text-align: center;
+  margin-top: 2rem;
+}
+.directions-button button {
+  background-color: #1a3e3e;
+  color: white;
+  width: 245px;
+  height: 50px;
+  border-radius: 4px;
+  font-size: 12px;
+  padding: 12px, 24px;
+  transition: 0.5s;
+  margin-bottom: 2rem;
+  font-size: 18px;
+}
+.directions-button button:hover {
+  background-color: white;
+  color: #1a3e3e;
+}
+.travel {
+  background-color: #F3F5F4;
+}
+.travel-header {
+  text-align: center;
+  padding: 1rem;
+}
+.travel-header h4 {
+  font-family: NEXTART-light, serif;
+  font-size: 16px;
+  color: #F2BE22;
+}
+.travel-header h2 {
+  font-family: NEXTART-bold, serif;
+  font-size: 24px;
+}
+.travel-form {
+  background-color: white;
+  width: 600px;
+  min-height: 350px;
+  margin-bottom: 2rem;
+  margin-right: 3rem;
+}
+.travel-form-picture {
+  padding: 2rem;
+  float: left;
+}
+.travel-form .text {
+  font-size: 12px;
+  padding: 2.7rem;
+}
+.travel-form .text a {
+  text-decoration: none;
+  color: black;
+  transition: 0.5s;
+}
+.travel-form .text a h4 {
+  font-family: NEXTART-bold, serif;
+  font-size: 22px;
+}
+.travel-form .text a:hover {
+  text-decoration: underline;
+  color: #1a3e3e;
+}
+.travel-form .text p {
+  font-size: 14px;
+  font-family: Arial, serif;
+}
+.travel-form .text span {
+  margin-top: 2rem;
+  float: left;
+  color: #F2BE22;
+  font-size: 14px;
+  position: relative;
+}
+.travel-form .text .right {
+  padding: 0;
+  font-size: 14px;
+  float: right;
+  position: relative;
+  color: #1A3E3E;
+  margin-top: 2.2rem;
+}
+.travel-button {
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.travel-button button {
+  background-color: #1a3e3e;
+  color: white;
+  width: 245px;
+  height: 50px;
+  border-radius: 4px;
+  font-size: 12px;
+  padding: 12px, 24px;
+  transition: 0.5s;
+  margin-bottom: 2rem;
+  font-size: 18px;
+}
+.travel-button button:hover {
+  background-color: white;
+  color: #1a3e3e;
+}
+.impressions-header {
+  text-align: center;
+  padding: 1rem;
+}
+.impressions-header h4 {
+  font-family: NEXTART-light, serif;
+  font-size: 16px;
+  color: #F2BE22;
+}
+.impressions-header h2 {
+  font-family: NEXTART-bold, serif;
+  font-size: 24px;
+  margin-bottom: 2rem;
+}
+.impressions .twoslider {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.impressions .twoslider .one {
+  width: 580px;
+  height: 250px;
+}
+.impressions .twoslider .two {
+  width: 280px;
+  height: 250px;
+}
+.impressions .twoslider .three {
+  width: 280px;
+  height: 250px;
+}
+.impressions .twoslider .up .four {
+  width: 280px;
+  height: 250px;
+}
+.impressions .twoslider .up .five {
+  width: 580px;
+  height: 250px;
+}
+.impressions .twoslider .up .six {
+  width: 280px;
+  height: 250px;
+}
+.impressions-button {
+  text-align: center;
+}
+.impressions-button button {
+  background-color: #1a3e3e;
+  color: white;
+  width: 245px;
+  height: 50px;
+  border-radius: 4px;
+  font-size: 12px;
+  padding: 12px, 24px;
+  transition: 0.5s;
+  margin-bottom: 2rem;
+  font-size: 18px;
+}
+.impressions-button button:hover {
+  background-color: white;
+  color: #1a3e3e;
+}
+.act {
+  margin-top: 3rem;
+}
+.act-form {
+  background-color: #fdfdfd;
+  border-radius: 2px;
+  margin-bottom: -6rem;
+  box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.2);
+  height: 200px;
+}
+.act-header {
+  float: left;
+  padding-top: 3rem;
+  padding-left: 3rem;
+  width: 500px;
+  margin-right: 10rem;
+}
+.act-header h4 {
+  font-family: NEXTART-light, serif;
+  font-size: 16px;
+  color: #F2BE22;
+}
+.act-header h2 {
+  font-family: NEXTART-bold, serif;
+  font-size: 24px;
+  margin-bottom: 2rem;
+}
+.act-text {
+  margin-top: 2rem ;
+  display: inline-block;
+}
+.act-text form input {
+  background-color: #F3F5F4;
+  border: none;
+  padding: 0, 16px;
+  height: 45px;
+  width: 280px;
+  margin-right: 2rem;
+}
+.act-text form button {
+  background-color: #1a3e3e;
+  color: white;
+  width: 245px;
+  height: 50px;
+  border-radius: 4px;
+  font-size: 18px;
+  padding: 12px, 24px;
+  transition: 0.5s;
+}
+.act-text form button:hover {
+  background-color: white;
+  color: #1a3e3e;
+}
+.act-text form a {
+  margin-top: 1rem;
+  text-decoration: none;
+  color: black;
+  transform: 0.5s;
+}
+.act-text form a:hover {
+  text-decoration: underline;
+}
+.act-text form p {
+  font-size: 12px;
+  font-family: NEXTART-reg, serif;
+  width: 540px;
+  margin: 10px;
+}
+.podval {
+  background-color: #1a3e3e;
+  padding-top: 10rem;
+  padding-bottom: 3rem;
+  font-size: 14px;
+}
+.podval-rum h4 {
+  font-family: NEXTART-reg, serif;
+  font-size: 18px;
+  color: white;
+}
+.podval-rum p {
+  font-family: NEXTART-reg, serif;
+  font-size: 14px;
+  color: white;
+  width: 500px;
+  transform: 0,3s;
+}
+.podval-rum a {
+  color: white;
+  font-size: 12px;
+  padding-right: 2rem;
+  margin-top: 3rem;
+}
+.podval-rum img {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-right: 1.4rem;
+}
+.podval-usl {
+  color: white;
+}
+.podval-usl h4 {
+  padding-left: 1rem;
+}
+.podval-usl li {
+  padding-bottom: 0.8rem;
+  list-style-image: url(../img/podval/5.png);
+  transform: 0.4s;
+}
+.podval-usl li:hover {
+  color: #F2BE22;
+}
+.podval .width {
+  width: 300px;
+}
+.down {
+  background-color: #18121E;
+}
+.down p {
+  color: white;
+  padding-top: 0.6rem;
+}
+.down a {
+  color: white;
+}
+@media (max-width: 991px) {
+  body {
+    width: 100%;
+  }
+  .main-background {
+    height: 100%;
+  }
+  .tour-form {
+    padding: 0;
+    width: 800px;
+  }
+  .tour-form form {
+    display: inline;
+    width: 170px;
+  }
+  .tour-form form select {
+    margin: 10px;
+  }
+}
+@media (max-width: 767px) {
+  .tour-form {
+    display: none;
+  }
+  .header-main button {
+    display: none;
+  }
+  .mountains-header {
+    padding: 0;
+    margin-top: 15rem;
+  }
+  .header-main ul {
+    display: none;
+  }
+  .header-main ul button {
+    display: none;
+  }
+  .hike {
+    height: auto;
+  }
+  .hike-img-1 {
+    display: none;
+  }
+  .hike-img-2 {
+    text-align: center;
+    position: absolute;
+    display: none;
+  }
+  .hike-img-2 img {
+    width: 458px;
+  }
+  .hike-header {
+    width: 100%;
+    font-size: 18px;
+    margin-top: 2rem;
+  }
+  .hike-header p {
+    width: 100%;
+  }
+  .hike-header h4 {
+    font-size: 12px;
+  }
+  .hike-header-btn {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+  .best-header-btn {
+    text-align: center;
+  }
+  .best-img {
+    display: none;
+  }
+  .best-header h2 {
+    font-size: 16px;
+  }
+  .best-header p {
+    font-size: 12px;
+  }
+  .travel-form {
+    padding: 2rem;
+    margin-left: 2rem;
+    text-align: center;
+  }
+  .travel-form .text {
+    text-align: center;
+    font-size: 10px;
+    padding: 3rem;
+  }
+  .travel-form .text a {
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
+  }
+  .travel-form .text h4 {
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+  }
+  .travel-form .travel-form-picture {
+    text-align: center;
+  }
+  .travel-form .travel-form-picture img {
+    text-align: center;
+    width: 140%;
+  }
+  .travel-form .slider {
+    font-size: 12%;
+  }
+  .twoslider .one img {
+    width: 180px;
+    height: 150px;
+  }
+  .twoslider .two img {
+    width: 180px;
+    height: 150px;
+  }
+  .twoslider .three {
+    width: 80px;
+    height: 250px;
+  }
+  .twoslider .four {
+    width: 180px;
+    height: 250px;
+  }
+  .twoslider .five {
+    width: 280px;
+    height: 250px;
+  }
+  .twoslider .six {
+    width: 280px;
+    height: 250px;
+  }
+  .directions-form {
+    text-align: center;
+    margin-left: 3.5rem;
+  }
+  .directions-form-2 {
+    display: none;
+  }
+  .directions-form-3 {
+    display: none;
+  }
+  .act-form {
+    width: 90%;
+    height: 100%;
+    margin-top: 1rem;
+    margin-left: 2rem;
+  }
+  .act-form h2 {
+    margin: 0;
+  }
+  .act-text {
+    margin: 0;
+  }
+  .act-text p {
+    padding-left: 3rem;
+    padding-top: 1rem   ;
+    margin: 0;
+  }
+  .act-text input {
+    margin-left: 3rem;
+    margin-top: 1rem;
+    display: inline-block;
+    width: 680px;
+    padding: 0;
+  }
+  .act-text button {
+    margin-left: 3rem;
+    margin-top: 1.5rem;
+    width: 300px;
+  }
+  .act-text a {
+    width: 200px;
+  }
+  .act-text a p {
+    width: 400px;
+  }
+  .podval {
+    text-align-last: left;
+  }
+  .down {
+    text-align: center;
+    padding-top: 1rem;
+    margin: 0;
+  }
+}
